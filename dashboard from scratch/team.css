@@ -1,0 +1,101 @@
+.team-container {
+    padding: 30px;
+}
+
+.team-heading {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.team-title {
+    color: #393D56;
+}
+
+.number-of-peeps {
+    margin-left: auto;
+    background-color: #F5F2F7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.people-icon {
+    fill: white;
+    stroke: #393D56;
+    width: 20px;
+    height: 20px;
+}
+
+.number {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+}
+
+/*TOP NAMES*/
+.top-names {
+    margin-top: 20px;
+
+    display: grid;
+    width: 100%;
+    gap: 30px;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+}
+
+.chat-icon {
+    background-color: #e3e3e3;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 60px;
+    fill: #fff;
+    stroke: #393D56;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #444;
+    opacity: 30%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.last-team-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.plus-icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    stroke: #393D56;
+    background: #a1dbff;
+}
+
+.invite {
+    color: #393D56;
+    font-weight: 600;
+}
+

@@ -1,0 +1,125 @@
+.meeting-container {
+    padding: 40px;
+}
+
+.meeting {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project-onboard {
+    font-size: 26px;
+    color: #393D56;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.row-1 {
+    margin-top: 25px;
+    background-color: #f7f7f7;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+}
+
+.set-set {
+    margin-left: auto;
+}
+
+.cal-cal {
+    fill: white;
+}
+
+.clock-icon {
+    fill: white;
+}
+
+.row-2 {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+}
+
+.row-2 p, .row-1 p {
+    color: #393D56;
+}
+
+.attendees-container {
+    margin-top: 40px;
+    display: flex;
+}
+
+.avatars-parent {
+    position: relative;
+}
+
+.avatars {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    border: 4px solid #fff;
+}
+
+.avatar-1 {
+    position: absolute;
+    transform: translate(0, 0);
+}
+
+.avatar-2 {
+    position: absolute;
+    transform: translate(60%, 0);
+}
+
+.avatar-3 {
+    position: absolute;
+    transform: translate(120%, 0);
+}
+
+.avatar-4 {
+    position: absolute;
+    transform: translate(180%, 0);
+}
+
+.plus-two {
+    width: 30px;
+    height: 30px;
+    background-color: #B1CFF4;
+    border-radius: 50px;
+
+    position: absolute;
+    transform: translate(240%, 0);
+    /* padding: 5px; */
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.right-bot-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.send {
+    color: #393D56;
+    font-weight: 600;
+}
+
+.send-icon {
+    fill: #B1CFF4;
+    background-color: #B1CFF4;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
